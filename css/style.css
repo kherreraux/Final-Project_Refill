@@ -16,22 +16,20 @@
 
 .rounded {
     height: 300px;
+    padding: 20px;
 }
 
-.float-center {
-    padding-right: 100px;
-    padding-left: 100px;
+.row {
+    height: 300px;
+}
+.col-sm {
+    height: 300px;
 }
 
-.float-start {
-    padding-left: 100px;
-
+.steps {
+    padding: 20px;
+    height: 300px;
 }
-.float-end {
-    padding-right: 100px;
-
-}
-
 
 
 
