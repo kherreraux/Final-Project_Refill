@@ -1,10 +1,19 @@
 .navbar, .navbar, .navbar-light, .bg-light {
     background-color: #0A7D94 !important;
+    padding-right: 50px;
 
 }
 
 .nav-link {
     color: white !important;
-    font-family: "Baloo Bhaijaan";
+    font-family: "Baloo Paaji 2" !important;
 
+}
+
+.active {
+    color: #FFBE5D;
+}
+
+.navbar-brand {
+    padding-left: 10px;
 }
