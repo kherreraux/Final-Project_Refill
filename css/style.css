@@ -1,49 +1,62 @@
-.navbar, .navbar, .navbar-light, .bg-light {
-    background-color: #0A7D94 !important;
-    padding-right: 50px;
-
+.navbar,
+.navbar,
+.navbar-light,
+.bg-light {
+  background-color: #0a7d94 !important;
+  padding-right: 50px;
 }
 
 .nav-link {
-    color: white !important;
-    font-family: "Baloo Paaji 2" !important;
-
+  color: white !important;
+  font-family: "Baloo Paaji 2" !important;
 }
 
 .navbar-brand {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .rounded {
-    height: 300px;
-    padding: 20px;
+  height: 300px;
+  padding: 20px;
 }
 
 .row {
-    height: 300px;
+  height: 300px;
 }
 .col-sm {
-    height: 300px;
+  height: 300px;
 }
 
 .steps {
-    padding: 20px;
-    height: 300px;
+  padding: 20px;
+  height: 300px;
 }
 
-
-
-
 /* jumbotron */
-.jumbotron{
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    height:calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Baloo Paaji 2" !important;
-    color: white;
+.jumbotron {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo Paaji 2" !important;
+  color: white;
+}
+
+/* Banner: the following contains the css for the banner with the plastic bottles */
+.banner {
+  background-image: linear-gradient(to right, #cef9ce, #82cdcd, #d2ebff);
+  font-family: "Baloo Paaji 2";
+  color: #027492;
+}
+.banner h1 {
+  padding: 56px;
+}
+
+.banner img {
+  padding-left: 56px;
+  padding-right: 56px;
 }
