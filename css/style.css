@@ -17,3 +17,21 @@
 .navbar-brand {
     padding-left: 10px;
 }
+
+
+
+
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height:calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Baloo Paaji 2" !important;
+    color: white;
+}
