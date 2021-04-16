@@ -72,6 +72,17 @@
 
 /* Brand Header */
 
+/* Hero Space jumbotron */
+.jumbotron{
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height:calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .brand {
   height: 150px;
   background-color: #0e5770;
@@ -111,8 +122,29 @@ h3 {
   height: 300px;
   padding: 30px;
 }
+/* how to video */
+.video{
+background-image: linear-gradient(rgb(148, 220, 238),rgb(133, 177, 235));
+}
+.video h5{
+    display: flex;
+    justify-content: center;
+    font-family: "Baloo Paaji 2" !important;
+    font-size: 40pt;
+    color: rgb(0, 65, 85);
+}
+img.videoresize{
+    max-width:60%;
+    max-height:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .steps {
   padding: 20px;
   height: 300px;
+    padding: 20px;
+    height: 300px;
 }
