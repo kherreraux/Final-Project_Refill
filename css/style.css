@@ -1,16 +1,24 @@
-
 /* navigation */
-.navbar, .navbar, .navbar-light, .bg-light {
-    background-color: #0A7D94 !important;
-    padding-right: 50px;
-
+.navbar,
+.navbar,
+.navbar-light,
+.bg-light {
+  background-color: #0a7d94 !important;
+  padding-right: 50px;
 }
 
 .nav-link {
   color: white !important;
   font-family: "Baloo Paaji 2" !important;
 }
-
+.nav-link:hover {
+  color: #aeffb4 !important;
+  font-family: "Baloo Paaji 2" !important;
+}
+.nav-link:active {
+    color: #aeffb4 !important;
+    font-family: "Baloo Paaji 2" !important;
+  }
 .navbar-brand {
   padding-left: 10px;
 }
@@ -51,6 +59,7 @@
   background-image: linear-gradient(to right, #cef9ce, #82cdcd, #d2ebff);
   font-family: "Baloo Paaji 2";
   color: #027492;
+  margin-top: 56px;
 }
 .banner h1 {
   padding: 56px;
@@ -64,15 +73,15 @@
 /* Brand Header */
 
 .brand {
-    height: 150px;
-    background-color: #0E5770;
+  height: 150px;
+  background-color: #0e5770;
 }
 
 .logoheader {
-    background-color: #0E5770;
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 80px;
+  background-color: #0e5770;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 80px;
 }
 /*h2 {
     font-family: "Baloo Paaji 2" !important;
@@ -84,26 +93,26 @@
 }*/
 
 h3 {
-    font-family: "Baloo Paaji 2" !important;
-    color: #0A7D94;
-    background-color: white !important;
-    text-align: center;
-    padding-top: 50px;
-    padding-right: 30px;
-    font-size: 40px;
+  font-family: "Baloo Paaji 2" !important;
+  color: #0a7d94;
+  background-color: white !important;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 30px;
+  font-size: 40px;
 }
 
 /* How it Works */
 
 .row {
-    height: 300px;
+  height: 300px;
 }
 .col-sm {
-    height: 300px;
-    padding: 30px;
+  height: 300px;
+  padding: 30px;
 }
 
 .steps {
-    padding: 20px;
-    height: 300px;
+  padding: 20px;
+  height: 300px;
 }
