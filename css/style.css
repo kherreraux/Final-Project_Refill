@@ -8,3 +8,15 @@
     font-family: "Baloo Bhaijaan";
 
 }
+.jumbotron{
+background-image: url(../images/hero.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+height:calc(100vh - 25px);
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Baloo Bhaijaan', serif;
+color: white;
+}
