@@ -10,10 +10,25 @@
 
 }
 
-.active {
-    color: #FFBE5D;
-}
-
 .navbar-brand {
     padding-left: 10px;
 }
+
+.rounded {
+    height: 300px;
+}
+
+.float-center {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.float-start {
+    padding-left: 100px;
+
+}
+.float-end {
+    padding-right: 100px;
+
+}
+
