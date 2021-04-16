@@ -4,6 +4,11 @@
 .bg-light {
   background-color: #0a7d94 !important;
   padding-right: 50px;
+/* navigation */
+.navbar, .navbar, .navbar-light, .bg-light {
+    background-color: #0A7D94 !important;
+    padding-right: 50px;
+
 }
 
 .nav-link {
@@ -59,4 +64,51 @@
 .banner img {
   padding-left: 56px;
   padding-right: 56px;
+}
+
+/* Brand Header */
+
+.brand {
+    height: 150px;
+    background-color: #0E5770;
+}
+
+.logoheader {
+    background-color: #0E5770;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 80px;
+}
+/*h2 {
+    font-family: "Baloo Paaji 2" !important;
+    color: #004F5F;
+    background-color: #FCF4F2 !important;
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}*/
+
+h3 {
+    font-family: "Baloo Paaji 2" !important;
+    color: #0A7D94;
+    background-color: white !important;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    font-size: 40px;
+}
+
+/* How it Works */
+
+.row {
+    height: 300px;
+}
+.col-sm {
+    height: 300px;
+    padding: 30px;
+}
+
+.steps {
+    padding: 20px;
+    height: 300px;
 }
