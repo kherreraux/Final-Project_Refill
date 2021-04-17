@@ -4,7 +4,7 @@
 .navbar,
 .navbar-light,
 .bg-light {
-  background-color: #0a7d94 !important;
+  background-color: #0E5770 !important;
   padding-right: 50px;
 }
 
@@ -53,35 +53,28 @@
 /* Brand Header */
 .brand {
   height: 150px;
-  background-color: #0e5770;
 }
 
 .logoheader {
-  background-color: #0e5770;
+  background-image: linear-gradient(to bottom right, rgb(14, 87, 112), rgb(47, 170, 165), rgb(130, 205, 205));
   text-align: center;
   padding: 50px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
-/*h2 {
-    font-family: "Baloo Paaji 2" !important;
-    color: #004F5F;
-    background-color: #FCF4F2 !important;
-    text-align: center;
-    padding: 50px;
-    font-size: 50px;
-}*/
+
+/* How it Works */
 
 h3 {
   font-family: "Baloo Paaji 2" !important;
   color: #0a7d94;
   background-color: white !important;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 10px;
   padding-right: 30px;
   font-size: 40px;
 }
-
-/* How it Works */
 
 .row {
   height: 300px;
@@ -92,21 +85,15 @@ h3 {
   padding: 30px;
   padding-bottom: 100px;
 }
-.rounded {
-  height: 300px;
-  padding: 20px;
-}
-
-.row {
-  height: 300px;
-}
-.col-sm {
-  height: 300px;
-}
 
 .steps {
   padding: 20px;
   height: 300px;
+  padding-bottom: 150px;
+}
+
+.container {
+  padding-bottom: 100px;
 }
 
 /* how to video */
@@ -117,7 +104,7 @@ h3 {
 }
 
 .video-body{
-  padding-bottom:60px ;
+  padding-bottom:100px;
 }
 
 .video h5 {
@@ -126,7 +113,9 @@ h3 {
   font-family: "Baloo Paaji 2" !important;
   font-size: 40pt;
   color: rgb(0, 65, 85);
+  padding-top: 60px;
 }
+
 img.videoresize {
   max-width: 60%;
   max-height: 60%;
@@ -148,6 +137,7 @@ img.videoresize {
   color: #027492;
   margin-top: 200px;
   margin-bottom: 200px;
+  padding-top: 80px;
 }
 
 .banner h1 {
