@@ -173,6 +173,45 @@ img.videoresize {
   float:left;
 }
 
+/* ABOUT PAGE CSS */
+
+form {
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-family: "Open Sans";
+  background-image: linear-gradient(to right, #79afac, #82cdcd, #9fc4e2);
+  color:rgb(1, 42, 58);
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.subscribeTitle {
+  background-image: linear-gradient(to right, #79afac, #82cdcd, #9fc4e2);
+  color:rgb(0, 22, 31);
+  font-family: "Baloo Paaji 2" !important;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.btn-primary {
+  background-color: rgb(220, 255, 250);
+  font-weight: bold;
+  color:rgb(0, 22, 31)
+}
+
+
+
+
+
 
 @media all and (max-width: 500px) {
   body{
