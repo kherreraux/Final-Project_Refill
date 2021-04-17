@@ -172,3 +172,10 @@ img.videoresize {
   display:flex;
   float:left;
 }
+
+
+@media all and (max-width: 500px) {
+  body{
+    
+  }
+}
