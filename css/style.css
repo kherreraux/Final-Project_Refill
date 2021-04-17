@@ -1,6 +1,9 @@
 /* navigation */
 
-.navbar, .navbar, .navbar-light, .bg-light {
+.navbar,
+.navbar,
+.navbar-light,
+.bg-light {
   background-color: #0a7d94 !important;
   padding-right: 50px;
 }
@@ -14,13 +17,12 @@
   font-family: "Baloo Paaji 2" !important;
 }
 .nav-link:active {
-    color: #aeffb4 !important;
-    font-family: "Baloo Paaji 2" !important;
-  }
+  color: #aeffb4 !important;
+  font-family: "Baloo Paaji 2" !important;
+}
 .navbar-brand {
   padding-left: 10px;
 }
-
 
 /* jumbotron */
 .jumbotron {
@@ -37,15 +39,15 @@
 }
 
 /* Hero Space jumbotron */
-.jumbotron{
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    height:calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.jumbotron {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Brand Header */
@@ -108,22 +110,35 @@ h3 {
 }
 
 /* how to video */
-.video{
-background-image: linear-gradient(rgb(148, 220, 238),rgb(133, 177, 235));
+.video {
+  background-image: linear-gradient(rgb(148, 220, 238), rgb(133, 177, 235));
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-.video h5{
-    display: flex;
-    justify-content: center;
-    font-family: "Baloo Paaji 2" !important;
-    font-size: 40pt;
-    color: rgb(0, 65, 85);
+
+.video-body{
+  padding-bottom:60px ;
 }
-img.videoresize{
-    max-width:60%;
-    max-height:60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.video h5 {
+  display: flex;
+  justify-content: center;
+  font-family: "Baloo Paaji 2" !important;
+  font-size: 40pt;
+  color: rgb(0, 65, 85);
+}
+img.videoresize {
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.steps {
+  padding: 20px;
+  height: 300px;
+  padding: 20px;
+  height: 300px;
 }
 
 /* Banner: the following contains the css for the banner with the plastic bottles */
@@ -131,8 +146,10 @@ img.videoresize{
   background-image: linear-gradient(to right, #cef9ce, #82cdcd, #d2ebff);
   font-family: "Baloo Paaji 2";
   color: #027492;
-  margin-top: 56px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
+
 .banner h1 {
   padding: 56px;
 }
@@ -142,3 +159,26 @@ img.videoresize{
   padding-right: 56px;
 }
 
+.bannerContainer .col-sm {
+  display: flex;
+  align-items: center;
+}
+
+/* Bottom Banner */
+.bottomBanner {
+  background-image: url(../Images/beach.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.bottomBanner h1 {
+  max-width: 500px;
+  display:flex;
+  float:left;
+}
