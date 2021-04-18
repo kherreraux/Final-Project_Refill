@@ -15,9 +15,7 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
 
     <title>Document</title>
-
   </head>
-
   <body>
   <!-- Bootstrap Navigation -->
     <nav class="navbar navbar-light bg-light">
@@ -35,12 +33,6 @@
           <a class="nav-link" href="locations.html">Find Locations</a>
         </li>
       </ul>
-      <div class="burger toggle">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-      
     </nav>
  <!-- END Navigation -->
 
@@ -82,12 +74,11 @@
 </div>
 <!-- END How it Works-->
 
-
   <!-- how to video -->
   <div class="video">
     <div class="video-body">
       <h5 class="mt-0">Experience Our Refill Station</h5>
-      <img class="videoResize" src="images/video.png" class="align-self-center mr-3" alt="cleanvideo">
+      <img class="videoresize" src="images/video.png" class="align-self-center mr-3" alt="cleanvideo">
     </div>
   </div>
 <!-- End how to video -->
@@ -103,14 +94,32 @@
 </section>
 <!--  END Banner with bottles-->
 
-<!-- banner Jumbotron -->
-<div class="jumbotron jumbotron-fluid bottomBanner">
-  <div class="container">
+
+<div class="jumbotron bottomBanner">
+  <div class="jumboCopy">
     <h1 class="display-4">Refilling your products means less yucky stuff in our beautiful oceans</h1>
   </div>
 </div>
 
-<!-- End banner jumbotron -->
+<!-- Subscription Form & Title -->
+<h6 class="subscribeTitle">"Stay Informed!<br>Subscribe to get updates:</h6>
+
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name, nickname, whatever floats your boat.">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Email Address</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="email.example@web.com">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">I agree to receive updates and promotions from EcoFill</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <!-- END Subscription Form-->
 
 <!-- Footer section-->
 
@@ -125,3 +134,4 @@
   </body>
 
 </html>
+
