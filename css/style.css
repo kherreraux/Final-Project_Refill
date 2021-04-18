@@ -186,7 +186,7 @@ footer {
   padding: 0;
   height: 20em;
 }
-footer ol {
+footer ol{
  margin: 10px 0;
  display: flex;
  align-items: center;
