@@ -4,7 +4,7 @@
 .navbar,
 .navbar-light,
 .bg-light {
-  background-color: #0e5770 !important;
+  background-color: #0E5770 !important;
   padding-right: 50px;
 }
 
@@ -23,17 +23,7 @@
 .navbar-brand {
   padding-left: 10px;
 }
-.burger {
-  display: none;
-  cursor: pointer;
-}
-.burger div {
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
+
 /* jumbotron */
 .jumbotron {
   background-image: url(../images/hero.png);
@@ -48,8 +38,7 @@
   color: white;
 }
 
-/* THIS LOOKS LIKE IT IS A COPY OF THE ABOVE? 
-Hero Space jumbotron 
+/* Hero Space jumbotron */
 .jumbotron {
   background-image: url(../images/hero.png);
   background-size: cover;
@@ -60,13 +49,6 @@ Hero Space jumbotron
   align-items: center;
   justify-content: center;
 }
-*/
-/*  TRYING TO ADD A BETTER TRANSITION INTO RESPONSIVE LAYOUT:
-.display-4{
-  max-width: 500px;
- align-items: center;
-}
-*/
 
 /* Brand Header */
 .brand {
@@ -74,13 +56,7 @@ Hero Space jumbotron
 }
 
 .logoheader {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(14, 87, 112),
-    rgb(47, 170, 165),
-    rgb(130, 205, 205)
-  );
-  background-image: linear-gradient(to top left, rgb(14, 87, 112), rgb(47, 170, 165), rgb(130, 205, 205));
+  background-image: linear-gradient(to bottom right, rgb(14, 87, 112), rgb(47, 170, 165), rgb(130, 205, 205));
   text-align: center;
   padding: 50px;
   padding-bottom: 60px;
@@ -127,8 +103,8 @@ h3 {
   margin-bottom: 60px;
 }
 
-.video-body {
-  padding-bottom: 100px;
+.video-body{
+  padding-bottom:100px;
 }
 
 .video h5 {
@@ -140,7 +116,7 @@ h3 {
   padding-top: 60px;
 }
 
-img.videoResize {
+img.videoresize {
   max-width: 60%;
   max-height: 60%;
   display: block;
@@ -183,27 +159,20 @@ img.videoResize {
   background-image: url(../Images/beach.png);
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 550px;
+  height: 500px;
   height: calc(100vh - 25px);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.bottomBanner h1 {
-  max-width: 500px;
-  display: flex;
-  float: left;
+
+/* steps*/
+
+.steps {
+    padding: 20px;
+    height: 300px;
 }
 
-
-
-/* NAVBAR Animation
-@media screen and (max-width: 1024px) {
- .nav-links{
-   width: 60%;
-  }
-}
-*/
 
 @media screen and (max-width: 768px) {
   body {
@@ -232,73 +201,83 @@ img.videoResize {
   .burger {
     display: block;
   }
-}
+
 .nav-active {
   transform: translateX(0%);
+/* Footer*/
 }
 
-@keyframes navLinkFade {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-
-/* END OF NAVBAR ANIMATION */
-
-/* ABOUT PAGE CSS */
-
-form {
-  padding-left: 500px;
-  padding-right: 500px;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  font-family: "Open Sans";
-  background-image: linear-gradient(to right, #79afac, #82cdcd, #9fc4e2);
-  color:rgb(1, 42, 58);
+.bottomBanner h1 {
+  max-width: 500px;
+  display:flex;
+  float:left;
 }
 
-.form-group {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+/* Footer*/
 
-.subscribeTitle {
-  background-image: linear-gradient(to right, #79afac, #82cdcd, #9fc4e2);
-  color:rgb(0, 22, 31);
+footer {
+  background-color: #0E5770 !important;
+  padding: 0;
+  height: 20em;
+}
+footer ol{
+ margin: 10px 0;
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ color: white;
+ font-family: "Baloo Paaji 2" !important;
+}
+footer ol:hover {
+  color: #aeffb4 !important;
   font-family: "Baloo Paaji 2" !important;
-  padding-bottom: 10px;
-  margin: 0;
+}
+.row{ 
+  align-items: center;
+  justify-content: center; 
+}
+.socialmedia{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
   text-align: center;
-  padding-top: 100px;
-  padding-right: 30px;
-  font-size: 40px;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: #aeffb4; 
+}
+.fa-facebook {
+  background: #0E5770;
+  color: white;
 }
 
-.btn-primary {
-  background-color: rgb(220, 255, 250);
-  font-weight: bold;
-  color:rgb(0, 22, 31)
+.fa-twitter {
+  background:#0E5770;
+  color: white;
 }
-
-
-
-
-
-
-  to {
-    opacity: 1;
-    transform: translateX(0px);
-  }
+.fa-linkedin {
+  background: #0E5770;
+  color: white;
 }
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+.fa-instagram {
+  background: #0E5770;
+  color: white;
 }
-
-.toggle .line2 {
-  opacity: 0;
+.copyright{
+  background-color: #0E5770;
 }
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+.copyright ol{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
+/* Footer End*/
