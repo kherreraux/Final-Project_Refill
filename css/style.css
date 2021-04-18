@@ -246,7 +246,7 @@ img.videoResize {
   .burger {
     display: block;
   }
-}
+
 .nav-active {
   transform: translateX(0%);
 }
