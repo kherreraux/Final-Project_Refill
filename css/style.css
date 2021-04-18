@@ -4,7 +4,7 @@
 .navbar,
 .navbar-light,
 .bg-light {
-  background-color: #0E5770 !important;
+  background-color: #0e5770 !important;
   padding-right: 50px;
 }
 
@@ -23,7 +23,17 @@
 .navbar-brand {
   padding-left: 10px;
 }
-
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
 /* jumbotron */
 .jumbotron {
   background-image: url(../images/hero.png);
@@ -38,7 +48,8 @@
   color: white;
 }
 
-/* Hero Space jumbotron */
+/* THIS LOOKS LIKE IT IS A COPY OF THE ABOVE? 
+Hero Space jumbotron 
 .jumbotron {
   background-image: url(../images/hero.png);
   background-size: cover;
@@ -49,6 +60,13 @@
   align-items: center;
   justify-content: center;
 }
+*/
+/*  TRYING TO ADD A BETTER TRANSITION INTO RESPONSIVE LAYOUT:
+.display-4{
+  max-width: 500px;
+ align-items: center;
+}
+*/
 
 /* Brand Header */
 .brand {
@@ -56,7 +74,12 @@
 }
 
 .logoheader {
-  background-image: linear-gradient(to bottom right, rgb(14, 87, 112), rgb(47, 170, 165), rgb(130, 205, 205));
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(14, 87, 112),
+    rgb(47, 170, 165),
+    rgb(130, 205, 205)
+  );
   text-align: center;
   padding: 50px;
   padding-bottom: 60px;
@@ -103,8 +126,8 @@ h3 {
   margin-bottom: 60px;
 }
 
-.video-body{
-  padding-bottom:100px;
+.video-body {
+  padding-bottom: 100px;
 }
 
 .video h5 {
@@ -116,7 +139,7 @@ h3 {
   padding-top: 60px;
 }
 
-img.videoresize {
+img.videoResize {
   max-width: 60%;
   max-height: 60%;
   display: block;
@@ -159,23 +182,78 @@ img.videoresize {
   background-image: url(../Images/beach.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  max-height: 550px;
   height: calc(100vh - 25px);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-
 .bottomBanner h1 {
   max-width: 500px;
-  display:flex;
-  float:left;
+  display: flex;
+  float: left;
 }
 
-
-@media all and (max-width: 500px) {
-  body{
-    
+/*
+@media screen and (max-width: 1024px) {
+ .nav-links{
+   width: 60%;
   }
+}
+*/
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav {
+    position: absolute;
+    right: 0px;
+    height: 94vh;
+    top: 6vh;
+    background-color: #0e5770;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  /*
+  .nav li {
+    opacity: 0;
+  }
+*/
+  .burger {
+    display: block;
+  }
+}
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
