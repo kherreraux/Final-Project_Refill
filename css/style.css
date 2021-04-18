@@ -1,35 +1,27 @@
-
 /* navigation */
-.navbar, .navbar, .navbar-light, .bg-light {
-    background-color: #0A7D94 !important;
-    padding-right: 50px;
 
+.navbar,
+.navbar,
+.navbar-light,
+.bg-light {
+  background-color: #0E5770 !important;
+  padding-right: 50px;
 }
 
 .nav-link {
   color: white !important;
   font-family: "Baloo Paaji 2" !important;
 }
-
+.nav-link:hover {
+  color: #aeffb4 !important;
+  font-family: "Baloo Paaji 2" !important;
+}
+.nav-link:active {
+  color: #aeffb4 !important;
+  font-family: "Baloo Paaji 2" !important;
+}
 .navbar-brand {
   padding-left: 10px;
-}
-
-.rounded {
-  height: 300px;
-  padding: 20px;
-}
-
-.row {
-  height: 300px;
-}
-.col-sm {
-  height: 300px;
-}
-
-.steps {
-  padding: 20px;
-  height: 300px;
 }
 
 /* jumbotron */
@@ -46,12 +38,108 @@
   color: white;
 }
 
+/* Hero Space jumbotron */
+.jumbotron {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Brand Header */
+.brand {
+  height: 150px;
+}
+
+.logoheader {
+  background-image: linear-gradient(to bottom right, rgb(14, 87, 112), rgb(47, 170, 165), rgb(130, 205, 205));
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+/* How it Works */
+
+h3 {
+  font-family: "Baloo Paaji 2" !important;
+  color: #0a7d94;
+  background-color: white !important;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.row {
+  height: 300px;
+  padding-bottom: 50px;
+}
+.col-sm {
+  height: 300px;
+  padding: 30px;
+  padding-bottom: 100px;
+}
+
+.steps {
+  padding: 20px;
+  height: 300px;
+  padding-bottom: 150px;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+/* how to video */
+.video {
+  background-image: linear-gradient(rgb(148, 220, 238), rgb(133, 177, 235));
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.video-body{
+  padding-bottom:100px;
+}
+
+.video h5 {
+  display: flex;
+  justify-content: center;
+  font-family: "Baloo Paaji 2" !important;
+  font-size: 40pt;
+  color: rgb(0, 65, 85);
+  padding-top: 60px;
+}
+
+img.videoresize {
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.steps {
+  padding: 20px;
+  height: 300px;
+  padding: 20px;
+  height: 300px;
+}
+
 /* Banner: the following contains the css for the banner with the plastic bottles */
 .banner {
   background-image: linear-gradient(to right, #cef9ce, #82cdcd, #d2ebff);
   font-family: "Baloo Paaji 2";
   color: #027492;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding-top: 80px;
 }
+
 .banner h1 {
   padding: 56px;
 }
@@ -61,75 +149,21 @@
   padding-right: 56px;
 }
 
-/* Brand Header */
-
-/* Hero Space jumbotron */
-.jumbotron{
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    height:calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.brand {
-    height: 150px;
-    background-color: #0E5770;
+.bannerContainer .col-sm {
+  display: flex;
+  align-items: center;
 }
 
-.logoheader {
-    background-color: #0E5770;
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 80px;
-}
-/*h2 {
-    font-family: "Baloo Paaji 2" !important;
-    color: #004F5F;
-    background-color: #FCF4F2 !important;
-    text-align: center;
-    padding: 50px;
-    font-size: 50px;
-}*/
-
-h3 {
-    font-family: "Baloo Paaji 2" !important;
-    color: #0A7D94;
-    background-color: white !important;
-    text-align: center;
-    padding-top: 50px;
-    padding-right: 30px;
-    font-size: 40px;
-}
-
-/* How it Works */
-
-.row {
-    height: 300px;
-}
-.col-sm {
-    height: 300px;
-    padding: 30px;
-}
-/* how to video */
-.video{
-background-image: linear-gradient(rgb(148, 220, 238),rgb(133, 177, 235));
-}
-.video h5{
-    display: flex;
-    justify-content: center;
-    font-family: "Baloo Paaji 2" !important;
-    font-size: 40pt;
-    color: rgb(0, 65, 85);
-}
-img.videoresize{
-    max-width:60%;
-    max-height:60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Bottom Banner */
+.bottomBanner {
+  background-image: url(../Images/beach.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* steps*/
@@ -139,3 +173,78 @@ img.videoresize{
     height: 300px;
 }
 /* Footer*/
+.bottomBanner h1 {
+  max-width: 500px;
+  display:flex;
+  float:left;
+}
+
+/* Footer*/
+
+footer {
+  background-color: #0E5770 !important;
+  padding: 0;
+  height: 20em;
+}
+footer ol {
+ margin: 10px 0;
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ color: white;
+ font-family: "Baloo Paaji 2" !important;
+}
+footer ol:hover {
+  color: #aeffb4 !important;
+  font-family: "Baloo Paaji 2" !important;
+}
+.row{ 
+  align-items: center;
+  justify-content: center; 
+}
+.socialmedia{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: #aeffb4; 
+}
+.fa-facebook {
+  background: #0E5770;
+  color: white;
+}
+
+.fa-twitter {
+  background:#0E5770;
+  color: white;
+}
+.fa-linkedin {
+  background: #0E5770;
+  color: white;
+}
+.fa-instagram {
+  background: #0E5770;
+  color: white;
+}
+.copyright{
+  background-color: #0E5770;
+}
+.copyright ol{
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+/* Footer End*/
+
