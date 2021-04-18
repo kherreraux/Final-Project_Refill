@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 /* navigation */
 
 .navbar,
@@ -113,6 +117,13 @@ h3 {
   padding-bottom: 150px;
 }
 
+.steps {
+  padding: 20px;
+  height: 300px;
+  padding: 20px;
+  height: 300px;
+}
+
 .container {
   padding-bottom: 100px;
 }
@@ -143,12 +154,6 @@ img.videoresize {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.steps {
-  padding: 20px;
-  height: 300px;
-  padding: 20px;
-  height: 300px;
 }
 
 /* Banner: the following contains the css for the banner with the plastic bottles */
@@ -232,6 +237,7 @@ img.videoresize {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
+}
   /*
   .nav li {
     opacity: 0;
@@ -250,6 +256,53 @@ img.videoresize {
     opacity: 0;
     transform: translateX(50px);
   }
+/* Locations - Map */
+.map {
+  padding: 80px !important;
+  background-color: #E1FFF9;
+  margin: 0;
+}
+
+/* Form */
+form {
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-family: "Open Sans";
+  background-image: linear-gradient(to right, #79afac, #82cdcd, #9fc4e2);
+  color:rgb(1, 42, 58);
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.subscribeTitle {
+  background-image: linear-gradient(to right, #79afac, #82cdcd, #9fc4e2);
+  color:rgb(0, 22, 31);
+  font-family: "Baloo Paaji 2" !important;
+  padding-bottom: 10px;
+  margin: 0;
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.btn-primary {
+  background-color: rgb(220, 255, 250);
+  font-weight: bold;
+  color:rgb(0, 22, 31)
+}
+/* Form */
+
+/* Footer*/
+.bottomBanner h1 {
+  max-width: 500px;
+  display:flex;
+  float:left;
 }
 
 .toggle .line1 {
@@ -272,7 +325,7 @@ footer {
   padding: 0;
   height: 20em;
 }
-footer ol{
+footer ol {
  margin: 10px 0;
  display: flex;
  align-items: center;
@@ -284,7 +337,7 @@ footer ol:hover {
   color: #aeffb4 !important;
   font-family: "Baloo Paaji 2" !important;
 }
-.row{ 
+.row { 
   align-items: center;
   justify-content: center; 
 }
@@ -323,13 +376,13 @@ footer ol:hover {
   background: #0E5770;
   color: white;
 }
-.copyright{
+.copyright {
   background-color: #0E5770;
 }
-.copyright ol{
+.copyright ol {
   display: flex;
   align-items: right;
   justify-content: right;
   font-family: Arial, Helvetica, sans-serif !important;
 }
-/* Footer End*/
+/* Footer*/
