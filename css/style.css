@@ -148,7 +148,7 @@ h3 {
   padding-top: 60px;
 }
 
-img.videoresize {
+img.videoResize {
   max-width: 60%;
   max-height: 60%;
   display: block;
@@ -257,6 +257,26 @@ img.videoresize {
     transform: translateX(50px);
   }
 }
+/* Footer*/
+.bottomBanner h1 {
+  max-width: 500px;
+  display:flex;
+  float:left;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+.toggle .line2 {
+    opacity: 0;
+  }
+  
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+
 /* Locations - Map */
 .map {
   padding: 80px !important;
@@ -298,25 +318,6 @@ form {
   color:rgb(0, 22, 31)
 }
 /* Form */
-
-/* Footer*/
-.bottomBanner h1 {
-  max-width: 500px;
-  display:flex;
-  float:left;
-}
-
-.toggle .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-  
-.toggle .line2 {
-    opacity: 0;
-  }
-  
-.toggle .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
 
 
 /* Footer*/
