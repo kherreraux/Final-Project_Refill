@@ -256,6 +256,7 @@ img.videoresize {
     opacity: 0;
     transform: translateX(50px);
   }
+}
 /* Locations - Map */
 .map {
   padding: 80px !important;
