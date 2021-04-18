@@ -23,7 +23,17 @@
 .navbar-brand {
   padding-left: 10px;
 }
-
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
 /* jumbotron */
 .jumbotron {
   background-image: url(../images/hero.png);
@@ -41,6 +51,17 @@
 /* Hero Space jumbotron */
 .jumbotron {
   background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.turtle {
+  background-image: url(../Images/turtle_hero_image.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -160,10 +181,20 @@ img.videoresize {
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
+  max-height: 550px;
   height: calc(100vh - 25px);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Banner*/
+.bottomBanner h1 {
+  max-width: 500px;
+  display:flex;
+  float:left;
+  display: flex;
+  float: left;
 }
 
 /* steps*/
@@ -173,6 +204,14 @@ img.videoresize {
     height: 300px;
 }
 
+
+/*
+@media screen and (max-width: 1024px) {
+ .nav-links{
+   width: 60%;
+  }
+}
+*/
 
 @media screen and (max-width: 768px) {
   body {
@@ -201,17 +240,30 @@ img.videoresize {
   .burger {
     display: block;
   }
-
+}
 .nav-active {
   transform: translateX(0%);
-/* Footer*/
 }
 
-.bottomBanner h1 {
-  max-width: 500px;
-  display:flex;
-  float:left;
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
 }
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+.toggle .line2 {
+    opacity: 0;
+  }
+  
+.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
 
 /* Footer*/
 
