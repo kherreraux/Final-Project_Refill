@@ -195,7 +195,9 @@ img.videoResize {
   float: left;
 }
 
-/*
+
+
+/* NAVBAR Animation
 @media screen and (max-width: 1024px) {
  .nav-links{
    width: 60%;
@@ -240,6 +242,9 @@ img.videoResize {
     opacity: 0;
     transform: translateX(50px);
   }
+
+/* END OF NAVBAR ANIMATION */
+
 /* ABOUT PAGE CSS */
 
 form {
