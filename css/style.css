@@ -155,6 +155,14 @@ img.videoResize {
   margin-left: auto;
   margin-right: auto;
 }
+.interface{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+}
+/* END how to video */
+
 
 /* Banner: the following contains the css for the banner with the plastic bottles */
 .banner {
@@ -343,7 +351,7 @@ footer ol:hover {
   color: #aeffb4 !important;
   font-family: "Baloo Paaji 2" !important;
 }
-.row { 
+.foot { 
   align-items: center;
   justify-content: center; 
 }
@@ -392,3 +400,33 @@ footer ol:hover {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 /* Footer*/
+
+/* Enviornmental and Popular Location Cards*/
+.container-fluid{
+  background-color: rgb(208, 234, 255);
+  height: 7in;
+}
+.cardContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding-top: 100px;
+}
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-family: "Baloo Paaji 2" !important;
+}
+p{  
+font-family: "Baloo Paaji 2" !important;
+}
+.container-fluidtwo{
+background-color: #E1FFF9;
+height: 7in;
+}
+.cards{
+align-items: center;
+justify-content: center; 
+}
+/* END Enviornmental and Popular Location Cards*/
