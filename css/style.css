@@ -74,7 +74,25 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* About Cards  */
+.aboutCard{
+  background-color: #71a1a8;
+  padding: 40px;
+  font-family: "Baloo Paaji 2" !important;
+  color: white;
+  display:flex;
 
+  border-radius: 20px;
+
+}
+.firstCard{
+  float: left;
+}
+
+.secondCard{
+  float: right;
+}
+/* END About Cards  */
 /* Brand Header */
 .brand {
   height: 150px;
@@ -206,8 +224,7 @@ img.videoResize {
   max-width: 500px;
   display:flex;
   float:left;
-  display: flex;
-  float: left;
+  
 }
 
 /* steps*/
